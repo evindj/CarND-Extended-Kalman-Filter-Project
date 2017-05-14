@@ -1,8 +1,9 @@
 #ifndef TOOLS_H_
 #define TOOLS_H_
 #include <vector>
+#include <iostream>
 #include "Eigen/Dense"
-
+using namespace std;
 class Tools {
 public:
   /**

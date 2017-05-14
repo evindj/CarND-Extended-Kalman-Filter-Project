@@ -2,7 +2,6 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
-#include <stdlib.h>
 #include "Eigen/Dense"
 #include "FusionEKF.h"
 #include "ground_truth_package.h"
@@ -68,6 +67,7 @@ int main(int argc, char* argv[]) {
 
   // prep the measurement packages (each line represents a measurement at a
   // timestamp)
+  
   while (getline(in_file_, line)) {
 
     string sensor_type;
